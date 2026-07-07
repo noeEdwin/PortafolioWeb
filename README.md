@@ -20,11 +20,17 @@ Este es un portafolio personal construido con **HTML5, CSS3 y JavaScript**, util
 
 El portafolio está compuesto por las siguientes secciones y páginas:
 
+![Hero Section](img/hero_section.png)
+
 | Página | Descripción |
 |--------|-------------|
 | **Inicio (index.html)** | Página principal con presentación personal, foto de perfil y botones de navegación rápida. Incluye un breve resumen sobre mí y links a redes sociales. |
 | **Resume (resume.html)** | Hoja de vida con secciones de experiencia, educación, habilidades profesionales y tecnologías que estoy aprendiendo actualmente. |
 | **Proyectos (projects.html)** | Galería de proyectos desarrollados, incluyendo proyectos de inteligencia artificial y algoritmos. |
+
+![Projects](img/projects1.png)
+![Projects](img/projects2.png)
+![Projects](img/projects3.png)
 
 ### Estructura del Repositorio
 
@@ -40,7 +46,18 @@ portfolio/
 │   └── portafolio.js      # Funcionalidad JavaScript
 └── img/
     ├── profile.png        # Foto de perfil
-    └── favicon.ico        # Icono del sitio
+    ├── favicon.ico        # Icono del sitio
+    ├── hero_section.png   # Sección hero del portafolio
+    ├── resume.png         # Sección de resumen
+    ├── technologies.png   # Tecnologías utilizadas
+    ├── projects1.png      # Proyectos - imagen 1
+    ├── projects2.png      # Proyectos - imagen 2
+    ├── projects3.png      # Proyectos - imagen 3
+    ├── Tars.jpeg          # Proyecto Tars
+    ├── Heredity.png       # Proyecto Heredity
+    ├── pageRank.png       # Proyecto PageRank
+    ├── minesweeper.png    # Proyecto Minesweeper
+    └── tic-tac-toe.png    # Proyecto Tic Tac Toe
 ```
 
 ---
@@ -51,17 +68,16 @@ portfolio/
 Se descargó la plantilla **StartBootstrap Personal** desde GitHub. Esta plantilla está construida con Bootstrap 5 y incluye 4 páginas HTML predefinidas con un diseño moderno y responsive.
 
 ### Paso 2: Análisis de la Estructura Original
-La plantilla original venía con una estructura de carpetas para desarrollo (src/, scripts/, dist/) que incluía herramientas de compilación como Pug y Sass. Esta estructura no se ajustaba a lo que habíamos visto en clase ni a la estructura que ya conocíamos y habíamos utilizado en trabajos anteriores.
+La plantilla original venía con una estructura de carpetas para desarrollo (src/, scripts/, dist/). Esta estructura no se ajustaba a lo que habíamos visto en clase ni a la estructura que ya conocíamos y habíamos utilizado en trabajos anteriores.
 
 ### Paso 3: Cambio de Estructura
-Se decidió modificar completamente la estructura original del proyecto para trabajar con la estructura que ya estamos familiarizados y que hemos venido usando en todos los trabajos de la materia: una carpeta `css/` para estilos, una carpeta `js/` para JavaScript, una carpeta `img/` para imágenes, y el archivo `index.html` como página principal. Esta estructura es más sencilla, directa y fácil de entender, lo que facilita el desarrollo y mantenimiento del proyecto.
+Decidi modificar completamente la estructura original del proyecto para trabajar con la estructura que ya estoy familiarizado y que hemos venido usando en todos los trabajos de la materia: una carpeta `css/` para estilos, una carpeta `js/` para JavaScript, una carpeta `img/` para imágenes, y el archivo `index.html` como página principal. Esta estructura es más sencilla, directa y fácil de entender, lo que facilita el desarrollo y mantenimiento del proyecto.
 
 Cambios realizados:
 - Se renombró `styles.css` a `portafolio.css`
 - Se renombró `scripts.js` a `portafolio.js`
 - Se movieron las imágenes de `assets/` a `img/`
 - Se movieron los archivos HTML a la raíz del proyecto
-- Se eliminaron dependencias como `package.json` y archivos de configuración innecesarios
 
 ### Paso 4: Personalización del Contenido
 Se modificó el contenido de todas las páginas para reflejar mi información personal:
@@ -75,6 +91,9 @@ Se modificó el contenido de todas las páginas para reflejar mi información pe
 - Se actualizó el copyright y textos en español
 
 ### Paso 6: Personalización de Habilidades
+
+![Resume](img/resume.png)
+
 Las habilidades se dividieron en dos categorías:
 1. **Habilidades que ya domino:** HTML, CSS, JavaScript, Python, Java
 2. **Habilidades que estoy aprendiendo:** RAG, bases de datos vectoriales, LangGraph, LangChain, diseño de software, infraestructura, DevOps
@@ -85,6 +104,8 @@ Se creó este archivo README con toda la información requerida, incluyendo la d
 ---
 
 ## Tecnologías Utilizadas
+
+![Technologies](img/tecnologies.png)
 
 - **HTML5** - Estructura del portafolio
 - **CSS3** - Estilos y diseño visual
@@ -147,7 +168,3 @@ Juego de Tic Tac Toe con IA invencible usando el algoritmo Minimax con memorizac
 [Ver portafolio en vivo](https://noeEdwin.github.io/portfolio/)
 
 ---
-
-## Licencia
-
-MIT
