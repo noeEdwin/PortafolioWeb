@@ -11707,6 +11707,18 @@ html {
     left: -2vw;
   }
 }
+
+/* Cursor parpadeante para efecto de escritura */
+.typing-cursor {
+    animation: blink 1s infinite;
+    font-weight: 300;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
 @media (min-width: 1200px) {
   .profile {
     height: 35vw;
