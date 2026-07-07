@@ -1,12 +1,35 @@
-# Portafolio Personal - Edwin Noé Sánchez Chávez
+<div align="center">
+
+![Hero Section](img/hero_section.png)
+
+# Portafolio Personal
+
+### Edwin Noé Sánchez Chávez
+
+---
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+---
 
 **Instituto Tecnológico Nacional de México - Instituto Tecnológico de Oaxaca**
-**Carrera:** Ingeniería en Sistemas Computacionales
-**Materia:** Programación Web - Unidad 2
-**Docente:** Adelina Martínez Nieto
-**Alumno:** Sánchez Chávez Edwin Noé
-**Hora:** 10:00 - 1:00
-**Fecha de entrega:** 07 de julio del 2026
+
+| | |
+|---|---|
+| **Carrera** | Ingeniería en Sistemas Computacionales |
+| **Materia** | Programación Web - Unidad 2 |
+| **Docente** | Adelina Martínez Nieto |
+| **Alumno** | Sánchez Chávez Edwin Noé |
+| **Hora** | 10:00 - 1:00 |
+| **Fecha de entrega** | 07 de julio del 2026 |
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/noeEdwin)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://noeEdwin.github.io/portfolio/)
+
+</div>
 
 ---
 
@@ -20,7 +43,7 @@ Este es un portafolio personal construido con **HTML5, CSS3 y JavaScript**, util
 
 El portafolio está compuesto por las siguientes secciones y páginas:
 
-![Hero Section](img/hero_section.png)
+
 
 | Página | Descripción |
 |--------|-------------|
@@ -28,6 +51,8 @@ El portafolio está compuesto por las siguientes secciones y páginas:
 | **Resume (resume.html)** | Hoja de vida con secciones de experiencia, educación, habilidades profesionales y tecnologías que estoy aprendiendo actualmente. |
 | **Proyectos (projects.html)** | Galería de proyectos desarrollados, incluyendo proyectos de inteligencia artificial y algoritmos. |
 
+![Hero Section](img/hero_section.png)
+![Resume](img/resume.png)
 ![Projects](img/projects1.png)
 ![Projects](img/projects2.png)
 ![Projects](img/projects3.png)
@@ -83,7 +108,6 @@ Cambios realizados:
 Se modificó el contenido de todas las páginas para reflejar mi información personal:
 - Se reemplazó el nombre genérico por mi nombre real
 - Se actualizaron las secciones de habilidades con tecnologías que conozco y estoy aprendiendo
-![Technologies](img/tecnologies.png)
 - Se agregaron mis proyectos reales de inteligencia artificial y programación
 - Se actualizó la información de educación y experiencia
 
@@ -93,7 +117,7 @@ Se modificó el contenido de todas las páginas para reflejar mi información pe
 
 ### Paso 6: Personalización de Habilidades
 
-![Resume](img/resume.png)
+![Technologies](img/tecnologies.png)
 
 Las habilidades se dividieron en dos categorías:
 1. **Habilidades que ya domino:** HTML, CSS, JavaScript, Python, Java
@@ -106,6 +130,7 @@ Se creó este archivo README con toda la información requerida, incluyendo la d
 
 ## Tecnologías Utilizadas
 
+![Technologies](img/tecnologies.png)
 
 - **HTML5** - Estructura del portafolio
 - **CSS3** - Estilos y diseño visual
