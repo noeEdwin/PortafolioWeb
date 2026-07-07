@@ -25,7 +25,6 @@ El portafolio está compuesto por las siguientes secciones y páginas:
 | **Inicio (index.html)** | Página principal con presentación personal, foto de perfil y botones de navegación rápida. Incluye un breve resumen sobre mí y links a redes sociales. |
 | **Resume (resume.html)** | Hoja de vida con secciones de experiencia, educación, habilidades profesionales y tecnologías que estoy aprendiendo actualmente. |
 | **Proyectos (projects.html)** | Galería de proyectos desarrollados, incluyendo proyectos de inteligencia artificial y algoritmos. |
-| **Contacto (contact.html)** | Formulario de contacto para que los visitantes puedan comunicarse conmigo. |
 
 ### Estructura del Repositorio
 
@@ -35,7 +34,6 @@ portfolio/
 ├── index.html             # Página principal
 ├── resume.html            # Hoja de vida
 ├── projects.html          # Proyectos
-├── contact.html           # Contacto
 ├── css/
 │   └── portafolio.css     # Estilos personalizados (Bootstrap + estilos propios)
 ├── js/
@@ -53,14 +51,17 @@ portfolio/
 Se descargó la plantilla **StartBootstrap Personal** desde GitHub. Esta plantilla está construida con Bootstrap 5 y incluye 4 páginas HTML predefinidas con un diseño moderno y responsive.
 
 ### Paso 2: Análisis de la Estructura Original
-La plantilla original venía con una estructura de carpetas para desarrollo (src/, scripts/, dist/) que incluía herramientas de compilación como Pug y Sass. Para simplificar el proyecto y cumplir con los requisitos de la tarea, se decidió trabajar directamente con los archivos compilados.
+La plantilla original venía con una estructura de carpetas para desarrollo (src/, scripts/, dist/) que incluía herramientas de compilación como Pug y Sass. Esta estructura no se ajustaba a lo que habíamos visto en clase ni a la estructura que ya conocíamos y habíamos utilizado en trabajos anteriores.
 
-### Paso 3: Reestructuración de Archivos
-Se reorganizó la estructura para cumplir con los requisitos de entrega:
+### Paso 3: Cambio de Estructura
+Se decidió modificar completamente la estructura original del proyecto para trabajar con la estructura que ya estamos familiarizados y que hemos venido usando en todos los trabajos de la materia: una carpeta `css/` para estilos, una carpeta `js/` para JavaScript, una carpeta `img/` para imágenes, y el archivo `index.html` como página principal. Esta estructura es más sencilla, directa y fácil de entender, lo que facilita el desarrollo y mantenimiento del proyecto.
+
+Cambios realizados:
 - Se renombró `styles.css` a `portafolio.css`
 - Se renombró `scripts.js` a `portafolio.js`
 - Se movieron las imágenes de `assets/` a `img/`
-- Se eliminaron las herramientas de compilación que no eran necesarias
+- Se movieron los archivos HTML a la raíz del proyecto
+- Se eliminaron dependencias como `package.json` y archivos de configuración innecesarios
 
 ### Paso 4: Personalización del Contenido
 Se modificó el contenido de todas las páginas para reflejar mi información personal:
@@ -71,7 +72,6 @@ Se modificó el contenido de todas las páginas para reflejar mi información pe
 
 ### Paso 5: Ajustes Técnicos
 - Se corrigieron todas las rutas de archivos CSS, JavaScript e imágenes
-- Se eliminó la dependencia del servicio SB Forms en el formulario de contacto
 - Se actualizó el copyright y textos en español
 
 ### Paso 6: Personalización de Habilidades
