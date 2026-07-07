@@ -83,6 +83,7 @@ Cambios realizados:
 Se modificó el contenido de todas las páginas para reflejar mi información personal:
 - Se reemplazó el nombre genérico por mi nombre real
 - Se actualizaron las secciones de habilidades con tecnologías que conozco y estoy aprendiendo
+![Technologies](img/tecnologies.png)
 - Se agregaron mis proyectos reales de inteligencia artificial y programación
 - Se actualizó la información de educación y experiencia
 
@@ -105,7 +106,6 @@ Se creó este archivo README con toda la información requerida, incluyendo la d
 
 ## Tecnologías Utilizadas
 
-![Technologies](img/tecnologies.png)
 
 - **HTML5** - Estructura del portafolio
 - **CSS3** - Estilos y diseño visual
