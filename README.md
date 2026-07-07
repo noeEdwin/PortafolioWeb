@@ -27,7 +27,7 @@
 | **Fecha de entrega** | 07 de julio del 2026 |
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/noeEdwin)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://noeEdwin.github.io/portfolio/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://noeedwin.github.io/PortafolioWeb/)
 
 </div>
 
